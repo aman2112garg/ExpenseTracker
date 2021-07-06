@@ -41,7 +41,7 @@ transactions (
 );  
 """  
 
-# ! We don't Insert to or Query the tables directyly.
+# ! We don't Insert to or Query the tables directly.
 # ! The insertion is handled by Stored procedures.
 
 """   
