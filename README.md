@@ -1,4 +1,4 @@
-#ExpenseTracker
+# ExpenseTracker
 College Project made in MySQL and Python. Application for storing user expenses
 
 Database is named as expenses  
@@ -6,13 +6,13 @@ Inside database are three tables
 
 ## Here is the Schema  
 
-categories (
+* categories (  
     category_id INT AUTO_INCREMENT,  
     category_name VARCHAR(30),  
     PRIMARY KEY (category_id)  
 );
 
-accounts (  
+* accounts (  
     account_id INT AUTO_INCREMENT,  
     acc_name VARCHAR(30),  
     mode VARCHAR(10),  
@@ -22,7 +22,7 @@ accounts (
 );
 
 """  
-transactions (  
+* transactions (  
     id INT AUTO_INCREMENT,  
     tdate DATE,  
     tdescription VARCHAR(50),  
