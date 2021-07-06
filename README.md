@@ -1,25 +1,25 @@
-# ExpenseTracker
+#ExpenseTracker
 College Project made in MySQL and Python. Application for storing user expenses
 
-# * Database is named as expenses
-# * Inside database are three tables
+Database is named as expenses
+Inside database are three tables
 
-# * Here is the Schema
+## Here is the Schema
 
-# categories (
-#     category_id INT AUTO_INCREMENT,
-#     category_name VARCHAR(30),
-#     PRIMARY KEY (category_id)
-# );
+categories (
+    category_id INT AUTO_INCREMENT,
+    category_name VARCHAR(30),
+    PRIMARY KEY (category_id)
+);
 
-# accounts (
-#     account_id INT AUTO_INCREMENT,
-#     acc_name VARCHAR(30),
-#     mode VARCHAR(10),
-#     balance DECIMAL(10, 2) DEFAULT 0,
-#     CHECK (balance >= 0),
-#     PRIMARY KEY (account_id)
-# );
+accounts (
+    account_id INT AUTO_INCREMENT,
+    acc_name VARCHAR(30),
+    mode VARCHAR(10),
+    balance DECIMAL(10, 2) DEFAULT 0,
+    CHECK (balance >= 0),
+    PRIMARY KEY (account_id)
+);
 
 """
 transactions (
